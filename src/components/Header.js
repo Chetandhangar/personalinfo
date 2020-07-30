@@ -26,23 +26,21 @@ class Header extends React.Component{
                 <Navbar light expand="md" id="nav">
                    <div className="container">
                        <NavbarToggler onClick={this.handleNav} />
-                        <NavbarBrand classID="brand">Chetan Dhangar</NavbarBrand>
+                        <NavbarBrand>Chetan Dhangar</NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar className="ml-auto">
                         <NavItem>
-                            <NavLink className="nav-link" href="home">Home</NavLink>
+                            <NavLink className="nav-link" href=".home">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" href="about">About</NavLink>
+                            <NavLink className="nav-link" href="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" href="work">Work</NavLink>
+                            <NavLink className="nav-link" href="/work">Work</NavLink>
                         </NavItem>
                         </Nav>
                         </Collapse>
-                       
-                        
-                   </div>
+                        </div>
                 </Navbar>
             </React.Fragment>
         );
