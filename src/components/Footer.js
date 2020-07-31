@@ -3,7 +3,12 @@ import React from "react";
 function Footer(){
     return(
         <footer>
-            <div className="container">
+            <div className="row mt-5">
+                <div className="col-auto">
+                    <diV></diV>
+                </div>
+            </div>
+            <div className="container mt-5">
                 <div className="row row-content">
                     <div className="col-12 col-md-6 mr-auto">
                        <h3>Let's Build Something Toghether</h3>
