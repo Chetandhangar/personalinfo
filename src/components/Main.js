@@ -6,7 +6,6 @@ import About from '../containers/About';
 import Work from '../containers/Work';
 import { Route,Switch,Redirect} from 'react-router-dom';
 import PROJECTS from '../shared/projects';
-import { Card, CardImg } from 'reactstrap';
 
 class Main extends React.Component{
 
@@ -22,7 +21,6 @@ class Main extends React.Component{
         return(
             <div>
                 <Header />
-                <Card />
                 <Switch>
                    <Route path="/home" component={ () => <Home projects={this.state.projects}/>} />
                    <Route exact path="/about" component={About} />
