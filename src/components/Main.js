@@ -26,7 +26,7 @@ class Main extends React.Component{
                 <Switch>
                    <Route path="/home" component={ () => <Home projects={this.state.projects}/>} />
                    <Route exact path="/about" component={About} />
-                   <Route exact path="/work" component={Work} />
+                   <Route exact path="/work" component={ () => <Work projects={this.state.projects} />} />
                    <Redirect to="/home"/>
                 </Switch>
                 <Footer />
