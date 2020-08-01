@@ -22,7 +22,7 @@ function Footer(){
                         <div className="text-center">
                         <a className="btn btn-socail-icon btn-instagram" href="http://instagram.com/chetan.o21"><i className="fa fa-instagram"></i></a>
                         <a className="btn btn-socail-icon btn-github" href="http://github.com/Chetandhangar"><i className="fa fa-github"></i></a>
-                        <a className="btn btn-socail-icon btn-linkedin" href="https://linkedin.com/in/chetansdhangar"><i className="fa fa-linkedin"></i></a>
+                        <a className="btn btn-socail-icon btn-linkedin" href="https://www.linkedin.com/in/chetan-dhangar-4822951b0/"><i className="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>

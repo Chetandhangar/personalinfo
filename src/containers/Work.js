@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardTitle, CardImg, CardBody} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
     function RenderPro({project}) {
         return(
@@ -13,10 +14,10 @@ import { Card, CardTitle, CardImg, CardBody} from 'reactstrap';
                     </CardBody>
                   <div className="row mt-2">
                        <div className="col-12 col-md-6">
-                        <a className="text-secondary" href="#">View Project</a>
+                       <Link className="text-secondary" href={project.url}>View Project</Link>
                        </div>
                        <div className="col-12 col-md-5 offset-1">
-                         <a className="text-secondary" href="#">View Code</a>
+                         <a className="text-secondary" href={project.url}>View Code</a>
                        </div>
                   </div>
                 </Card>  

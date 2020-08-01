@@ -38,3 +38,6 @@ font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetic
   justify-content: center;
   margin-right: auto;
 }
+.img{
+  border-radius: 50%; 
+}

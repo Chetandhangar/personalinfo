@@ -1,6 +1,5 @@
 import React from 'react';
-import { CardImg, Card, CardTitle, CardBody, CardImgOverlay } from 'reactstrap';
-import PROJECTS from '../shared/projects';
+import { CardImg, Card, CardTitle, CardBody } from 'reactstrap';
 
 function RenderProject({project}){
     return(
@@ -11,7 +10,7 @@ function RenderProject({project}){
                     <CardTitle>{project.title}</CardTitle>
                      <span className="text-start">{project.description}</span> 
                 </CardBody>
-                <a className="btn text-secondary" href="/home">View projects Detail</a>
+                <a className="text-secondary" href={project.url}>View Project</a>
             </Card>
         </div>
     );
@@ -35,7 +34,7 @@ function RenderProject({project}){
                         <span><p>Reply time: Within 1 or 2 days.</p></span>
                     </div>
                     <div className="col-12 col-md-6 offset-1">
-                        <img src="" alt="Profile Image"></img>
+                        <img  className="img" width="70%" height="70%" src="/assets/profile.jpg" alt="Profile Image"></img>
                     </div>
                 </div>
                
@@ -55,7 +54,7 @@ function RenderProject({project}){
                  
                 <div className="row mt-5 ml-4 mr-1">
                   <div className="col-auto">
-                    <h2>What I'm Working On.</h2>
+                    <h2>What I've been Working On.</h2>
                   </div>
                 </div>
                 <div className="row mt-4 ml-4 mr-1">
