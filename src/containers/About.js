@@ -27,16 +27,12 @@ class About extends React.Component{
 
                 <div className="row mt-5 ml-4 mr-1">
                     <div className="col-12 col-md-5">
-                         <h3>My Journey</h3>
+                         <h3></h3>
                          <p>I started my journey as Web developer in 2020. As I was already an <b>IT</b> student so it was really quick for me to get start.</p>
-                         <p>Also i got so talnted and good mentors who guide me in my journey as web developer.</p>
-                         <p><a className="text-secondary" href="/tanaysir">Tanay</a> sir really help to me understand the things easily and in  a different way.</p>
-                         <p><a className="text-secondary" href="/mullapasir">Jogesh K. Muppalla</a> sir really help me to understand React.</p>
-                         <p><a className="text-secondary" href="/ranjanaban">Ranjana</a> ma'ms ebook really help me to  follow the path.</p>
                     </div>
-                    <div className="col-12 col-md-5 offset-1">
+                    <div className="col-12 offset-md-1 col-md-5 ">
                         <Card>
-                            <CardTitle className="text-center text-dark">Journey</CardTitle>
+                            <CardTitle className="text-center text-dark">Accomplishments</CardTitle>
                             <CardBody>
                             <dl className="row p-1 text-center">
                                 <dt className="col-6">Languages and Frameworks</dt>
@@ -78,7 +74,7 @@ class About extends React.Component{
                 </div>
                 <div className="row ml-4 mr-1">
                     <div className="col-12 col-md-6">
-                        <p>I'm a Front-end developer. Currently learning Back-end. I think web developement is the future snd wanted to be part of it. For most of the projects i have use React for developement. But i'm also familiar with other Languages as well.</p>
+                        <p>I'm a Front-end developer. Currently learning Back-end. I think web developement is the future and wanted to be part of it. For most of the projects i have use React for developement. But i'm also familiar with other Languages as well.</p>
                     </div>
                 </div>
 
