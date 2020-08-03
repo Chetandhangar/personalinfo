@@ -10,7 +10,7 @@ function RenderProject({project}){
                     <CardTitle>{project.title}</CardTitle>
                      <span className="text-start">{project.description}</span> 
                 </CardBody>
-                <a className="text-secondary" href={project.url}>View Project</a>
+                <a className="text-secondary" href={project.appurl}>View Project</a>
             </Card>
         </div>
     );

@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
                     </CardBody>
                   <div className="row mt-2">
                        <div className="col-12 col-md-6">
-                       <Link className="text-secondary" href={project.url}>View Project</Link>
+                       <Link className="text-secondary" href={project.appurl}>View Project</Link>
                        </div>
                        <div className="col-12 col-md-5 offset-1">
                          <a className="text-secondary" href={project.url}>View Code</a>
