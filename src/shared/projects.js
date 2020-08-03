@@ -24,7 +24,7 @@
         image: "assets/youtubeuiclone.jpg",
         description: "Allows you to search your favourite content on web. Develope using React, YOutube Api data.It is a great start to your React Journey.",
         url: "https://github.com/Chetandhangar/Youtube-Ui-clone",
-        appurl: "https://chetandhangar.netlify.app/"
+        appurl: "https://chetansearch.netlify.app/"
     },
     {
         id:3,
